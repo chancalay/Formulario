@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+
+    <form action="" method="GET">
+
+    <p>    
+    <label for="name">Nombre: </label>
+    <input type="text" name="nombre" maxlength="50"/> 
+    </p>
+
+    <p>
+    <label for="apellido">Apellido: </label>
+    <input type="text" name="apellido" maxlength="50"/>
+    </p>
+
+    <label for="sexo">Sexo:</label>
+    <input type="radio" name="sexo" value="h"/> Hombre
+    <input type="radio" name="sexo" value="m"/> Mujer
+
+    <p>
+     <label for="Correo">Correo: </label>    
+     <input type="email" name="Correo"/>   
+    </p>
+
+
+    <p>
+    <input type="checkbox" name="info" checked="checked"/> Deseo recibir información 
+    <p>
+    <input type="checkbox" name="info" checked="checked"/> Declaro haber leido terminos y condiciones
+    </p>
+    
+    </p>
+
+    
+        <label for="Poblacion">Población: </label>
+        <select name="Poblacion">
+          <option value="Argentina">Argentina</option>
+          <option value="Francia">Francia</option>
+          <option value="Brasil">Brasil</option>
+          <option value="Croacia">Croacia</option>
+          <option value="Inglaterra">Inglaterra</option>
+          
+        </select>
+
+        <p>
+        <input type="submit" value="Enviar"/>
+        </p>        
+        
+        <label for="Descripcion">Descripcion: </label>
+        <p>
+        <textarea rows="10" cols="50"></textarea>
+        </p>        
+
+
+        
+  </form>
+
+
+    </form>
+
+</body>
+</html>
